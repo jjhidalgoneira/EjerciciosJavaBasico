@@ -37,8 +37,9 @@ public class Main {
         (A1->Agua) o con códigos para decir las iniciales, al estilo de las comunicaciones
         por radio (Eco 1 para decir E1->Agua, Alfa 2 para decir A2, etc.)
         El programa hace un mapa en disco duro de los disparos efectuados,
-        que quedan grabados después de la partida en la carpeta c:\data
-         */
+        que quedan grabados después de la partida en la carpeta c:\data,
+        con el texto "Agua" o "Hundido" y de nombre las coordenadas del disparo.
+        */
 
 
         char numero='0';
