@@ -45,7 +45,7 @@ public class Main {
         char numero='0';
         char inicial='a';
         String rutaSalida="";
-        char barcoLetra='H';
+        char barcoLetra='h';
         char barcoNum='7';
         String barco;
         char mar [][]= {
@@ -143,8 +143,7 @@ public class Main {
                 System.out.println("ERROR: " + e.getMessage());
 
             }
-        }while(inicial != barcoLetra && barcoNum != numero);
+        } while (inicial != barcoLetra && barcoNum != numero);
         System.out.println("¡¡   H u n d i d o   !!");
-
     }
 }
